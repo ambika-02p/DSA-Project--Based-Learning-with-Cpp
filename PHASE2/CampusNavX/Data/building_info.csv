@@ -1,0 +1,16 @@
+building_id,building_name,floor_count,basement,elevator,stairs,ramp,data_status,notes
+1,CSIT Block,5,1,1,1,1,Assumed for prototype,User-provided/assumed indoor structure; verify later.
+3,B.Tech Block,5,0,1,1,1,Assumed for prototype,User-provided/assumed indoor structure; verify later.
+4,Shantos Library,3,0,1,1,1,Assumed for prototype,User-provided/assumed indoor structure; verify later.
+5,Civil Block,4,0,0,1,0,Assumed for prototype,User-provided/assumed indoor structure; verify later.
+6,Param Block,4,0,1,1,1,Assumed for prototype,User-provided/assumed indoor structure; verify later.
+7,Aryabhatt Lab,4,0,1,1,1,Assumed for prototype,User-provided/assumed indoor structure; verify later.
+8,Petroleum Block,5,0,1,1,1,Assumed for prototype,User-provided/assumed indoor structure; verify later.
+9,Chanakya Block,4,0,1,1,1,Assumed for prototype,User-provided/assumed indoor structure; verify later.
+10,K.P Nautiyal Block,4,0,1,1,1,Assumed for prototype,User-provided/assumed indoor structure; verify later.
+11,Priyadrashani Hostel,4,0,1,1,1,Assumed for prototype,User-provided/assumed indoor structure; verify later.
+16,Graphic Era Hospital,4,0,1,1,1,Assumed for prototype,User-provided/assumed indoor structure; verify later.
+17,Vishwakarma Block,4,0,1,1,1,Assumed for prototype,User-provided/assumed indoor structure; verify later.
+23,Lakshmi Bai Hostel,5,0,1,1,1,Assumed for prototype,User-provided/assumed indoor structure; verify later.
+25,Marina Hostel,4,0,1,1,1,Assumed for prototype,User-provided/assumed indoor structure; verify later.
+27,GEHU,4,0,1,1,1,Assumed for prototype,User-provided/assumed indoor structure; verify later.

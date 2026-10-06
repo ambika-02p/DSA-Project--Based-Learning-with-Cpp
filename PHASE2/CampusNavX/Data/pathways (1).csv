@@ -1,0 +1,379 @@
+source_id,source,destination_id,destination,distance_m,walking_time_min,steps
+1,CSIT Block,2,Badminton Court,254.901,3.035,318
+1,CSIT Block,3,B.Tech Block,202.377,2.409,252
+1,CSIT Block,4,Shantos Library,252.252,3.003,315
+1,CSIT Block,5,Civil Block,286.278,3.408,357
+1,CSIT Block,6,Param Block,285.019,3.393,356
+1,CSIT Block,7,Aryabhatt Lab,242.018,2.881,302
+1,CSIT Block,8,Petroleum Block,324.671,3.865,405
+1,CSIT Block,9,Chanakya Block,358.295,4.265,447
+1,CSIT Block,10,K.P Nautiyal Block,306.476,3.649,383
+1,CSIT Block,11,Priyadrashani Hostel,236.535,2.816,295
+1,CSIT Block,12,Dispensary,134.736,1.604,168
+1,CSIT Block,13,CafÃ© & Gym,206.354,2.457,257
+1,CSIT Block,14,GEU Bus Stop,326.402,3.886,408
+1,CSIT Block,15,Tuck Shop,147.396,1.755,184
+1,CSIT Block,16,Graphic Era Hospital,130.9,1.558,163
+1,CSIT Block,17,Vishwakarma Block,267.345,3.183,334
+1,CSIT Block,18,Gate No 1,112.546,1.34,140
+1,CSIT Block,19,Quick Bite,288.024,3.429,360
+1,CSIT Block,20,Parking,346.365,4.123,432
+1,CSIT Block,21,Bus Stop Gate 2,395.206,4.705,494
+1,CSIT Block,22,Gate No 2,410.892,4.892,513
+1,CSIT Block,23,Lakshmi Bai Hostel,117.187,1.395,146
+1,CSIT Block,24,Char Khamba,318.695,3.794,398
+1,CSIT Block,25,Marina Hostel,676.415,8.053,845
+1,CSIT Block,26,GEHU Ground,762.487,9.077,953
+1,CSIT Block,27,GEHU,785.073,9.346,981
+1,CSIT Block,28,Ravi canteen,190.389,2.267,237
+2,Badminton Court,3,B.Tech Block,79.082,0.941,98
+2,Badminton Court,4,Shantos Library,93.501,1.113,116
+2,Badminton Court,5,Civil Block,52.88,0.63,66
+2,Badminton Court,6,Param Block,123.336,1.468,154
+2,Badminton Court,7,Aryabhatt Lab,122.113,1.454,152
+2,Badminton Court,8,Petroleum Block,166.254,1.979,207
+2,Badminton Court,9,Chanakya Block,208.437,2.481,260
+2,Badminton Court,10,K.P Nautiyal Block,205.379,2.445,256
+2,Badminton Court,11,Priyadrashani Hostel,236.83,2.819,296
+2,Badminton Court,12,Dispensary,188.864,2.248,236
+2,Badminton Court,13,CafÃ© & Gym,50.588,0.602,63
+2,Badminton Court,14,GEU Bus Stop,462.688,5.508,578
+2,Badminton Court,15,Tuck Shop,183.107,2.18,228
+2,Badminton Court,16,Graphic Era Hospital,267.152,3.18,333
+2,Badminton Court,17,Vishwakarma Block,182.512,2.173,228
+2,Badminton Court,18,Gate No 1,204.37,2.433,255
+2,Badminton Court,19,Quick Bite,181.59,2.162,226
+2,Badminton Court,20,Parking,265.722,3.163,332
+2,Badminton Court,21,Bus Stop Gate 2,299.438,3.565,374
+2,Badminton Court,22,Gate No 2,346.837,4.129,433
+2,Badminton Court,23,Lakshmi Bai Hostel,166.814,1.986,208
+2,Badminton Court,24,Char Khamba,388.27,4.622,485
+2,Badminton Court,25,Marina Hostel,724.958,8.63,906
+2,Badminton Court,26,GEHU Ground,815.872,9.713,1019
+2,Badminton Court,27,GEHU,852.519,10.149,1065
+2,Badminton Court,28,Ravi canteen,68.686,0.818,85
+3,B.Tech Block,4,Shantos Library,55.685,0.663,69
+3,B.Tech Block,5,Civil Block,87.505,1.042,109
+3,B.Tech Block,6,Param Block,93.959,1.119,117
+3,B.Tech Block,7,Aryabhatt Lab,64.927,0.773,81
+3,B.Tech Block,8,Petroleum Block,140.384,1.671,175
+3,B.Tech Block,9,Chanakya Block,181.556,2.161,226
+3,B.Tech Block,10,K.P Nautiyal Block,155.149,1.847,193
+3,B.Tech Block,11,Priyadrashani Hostel,162.298,1.932,202
+3,B.Tech Block,12,Dispensary,111.949,1.333,139
+3,B.Tech Block,13,CafÃ© & Gym,65.854,0.784,82
+3,B.Tech Block,14,GEU Bus Stop,383.646,4.567,479
+3,B.Tech Block,15,Tuck Shop,104.963,1.25,131
+3,B.Tech Block,16,Graphic Era Hospital,190.679,2.27,238
+3,B.Tech Block,17,Vishwakarma Block,122.728,1.461,153
+3,B.Tech Block,18,Gate No 1,130.119,1.549,162
+3,B.Tech Block,19,Quick Bite,130.453,1.553,163
+3,B.Tech Block,20,Parking,213.665,2.544,267
+3,B.Tech Block,21,Bus Stop Gate 2,254.952,3.035,318
+3,B.Tech Block,22,Gate No 2,294.359,3.504,367
+3,B.Tech Block,23,Lakshmi Bai Hostel,148.583,1.769,185
+3,B.Tech Block,24,Char Khamba,311.898,3.713,389
+3,B.Tech Block,25,Marina Hostel,655.881,7.808,819
+3,B.Tech Block,26,GEHU Ground,746.716,8.889,933
+3,B.Tech Block,27,GEHU,781.473,9.303,976
+3,B.Tech Block,28,Ravi canteen,72.845,0.867,91
+4,Shantos Library,5,Civil Block,66.49,0.792,83
+4,Shantos Library,6,Param Block,38.691,0.461,48
+4,Shantos Library,7,Aryabhatt Lab,32.097,0.382,40
+4,Shantos Library,8,Petroleum Block,85.665,1.02,107
+4,Shantos Library,9,Chanakya Block,127.747,1.521,159
+4,Shantos Library,10,K.P Nautiyal Block,112.518,1.34,140
+4,Shantos Library,11,Priyadrashani Hostel,152.73,1.818,190
+4,Shantos Library,12,Dispensary,142.152,1.692,177
+4,Shantos Library,13,CafÃ© & Gym,108.18,1.288,135
+4,Shantos Library,14,GEU Bus Stop,389.566,4.638,486
+4,Shantos Library,15,Tuck Shop,131.439,1.565,164
+4,Shantos Library,16,Graphic Era Hospital,217.365,2.588,271
+4,Shantos Library,17,Vishwakarma Block,89.609,1.067,112
+4,Shantos Library,18,Gate No 1,164.786,1.962,205
+4,Shantos Library,19,Quick Bite,88.335,1.052,110
+4,Shantos Library,20,Parking,172.908,2.058,216
+4,Shantos Library,21,Bus Stop Gate 2,209.287,2.492,261
+4,Shantos Library,22,Gate No 2,254.257,3.027,317
+4,Shantos Library,23,Lakshmi Bai Hostel,204.101,2.43,255
+4,Shantos Library,24,Char Khamba,304.407,3.624,380
+4,Shantos Library,25,Marina Hostel,632.742,7.533,790
+4,Shantos Library,26,GEHU Ground,723.616,8.614,904
+4,Shantos Library,27,GEHU,761.156,9.061,951
+4,Shantos Library,28,Ravi canteen,120.762,1.438,150
+5,Civil Block,6,Param Block,82.478,0.982,103
+5,Civil Block,7,Aryabhatt Lab,98.568,1.173,123
+5,Civil Block,8,Petroleum Block,119.412,1.422,149
+5,Civil Block,9,Chanakya Block,160.16,1.907,200
+5,Civil Block,10,K.P Nautiyal Block,167.623,1.996,209
+5,Civil Block,11,Priyadrashani Hostel,219.216,2.61,274
+5,Civil Block,12,Dispensary,196.749,2.342,245
+5,Civil Block,13,CafÃ© & Gym,96.071,1.144,120
+5,Civil Block,14,GEU Bus Stop,455.333,5.421,569
+5,Civil Block,15,Tuck Shop,187.984,2.238,234
+5,Civil Block,16,Graphic Era Hospital,274.881,3.272,343
+5,Civil Block,17,Vishwakarma Block,152.694,1.818,190
+5,Civil Block,18,Gate No 1,216.639,2.579,270
+5,Civil Block,19,Quick Bite,145.916,1.737,182
+5,Civil Block,20,Parking,226.65,2.698,283
+5,Civil Block,21,Bus Stop Gate 2,255.658,3.044,319
+5,Civil Block,22,Gate No 2,306.314,3.647,382
+5,Civil Block,23,Lakshmi Bai Hostel,211.606,2.519,264
+5,Civil Block,24,Char Khamba,370.789,4.414,463
+5,Civil Block,25,Marina Hostel,694.296,8.265,867
+5,Civil Block,26,GEHU Ground,785.011,9.345,981
+5,Civil Block,27,GEHU,823.762,9.807,1029
+5,Civil Block,28,Ravi canteen,113.995,1.357,142
+6,Param Block,7,Aryabhatt Lab,44.698,0.532,55
+6,Param Block,8,Petroleum Block,47.057,0.56,58
+6,Param Block,9,Chanakya Block,89.458,1.065,111
+6,Param Block,10,K.P Nautiyal Block,85.151,1.014,106
+6,Param Block,11,Priyadrashani Hostel,150.458,1.791,188
+6,Param Block,12,Dispensary,165.904,1.975,207
+6,Param Block,13,CafÃ© & Gym,145.354,1.73,181
+6,Param Block,14,GEU Bus Stop,390.974,4.654,488
+6,Param Block,15,Tuck Shop,153.859,1.832,192
+6,Param Block,16,Graphic Era Hospital,235.968,2.809,294
+6,Param Block,17,Vishwakarma Block,75.06,0.894,93
+6,Param Block,18,Gate No 1,189.935,2.261,237
+6,Param Block,19,Quick Bite,64.125,0.763,80
+6,Param Block,20,Parking,144.381,1.719,180
+6,Param Block,21,Bus Stop Gate 2,176.107,2.097,220
+6,Param Block,22,Gate No 2,224.651,2.674,280
+6,Param Block,23,Lakshmi Bai Hostel,242.538,2.887,303
+6,Param Block,24,Char Khamba,297.754,3.545,372
+6,Param Block,25,Marina Hostel,612.395,7.29,765
+6,Param Block,26,GEHU Ground,703.02,8.369,878
+6,Param Block,27,GEHU,742.323,8.837,927
+6,Param Block,28,Ravi canteen,158.803,1.891,198
+7,Aryabhatt Lab,8,Petroleum Block,83.297,0.992,104
+7,Aryabhatt Lab,9,Chanakya Block,121.046,1.441,151
+7,Aryabhatt Lab,10,K.P Nautiyal Block,90.402,1.076,113
+7,Aryabhatt Lab,11,Priyadrashani Hostel,120.65,1.436,150
+7,Aryabhatt Lab,12,Dispensary,121.247,1.443,151
+7,Aryabhatt Lab,13,CafÃ© & Gym,127.725,1.521,159
+7,Aryabhatt Lab,14,GEU Bus Stop,358.176,4.264,447
+7,Aryabhatt Lab,15,Tuck Shop,109.308,1.301,136
+7,Aryabhatt Lab,16,Graphic Era Hospital,192.572,2.293,240
+7,Aryabhatt Lab,17,Vishwakarma Block,60.998,0.726,76
+7,Aryabhatt Lab,18,Gate No 1,145.238,1.729,181
+7,Aryabhatt Lab,19,Quick Bite,65.642,0.781,82
+7,Aryabhatt Lab,20,Parking,149.636,1.781,187
+7,Aryabhatt Lab,21,Bus Stop Gate 2,190.057,2.263,237
+7,Aryabhatt Lab,22,Gate No 2,230.8,2.748,288
+7,Aryabhatt Lab,23,Lakshmi Bai Hostel,209.435,2.493,261
+7,Aryabhatt Lab,24,Char Khamba,272.319,3.242,340
+7,Aryabhatt Lab,25,Marina Hostel,602.871,7.177,753
+7,Aryabhatt Lab,26,GEHU Ground,693.781,8.259,867
+7,Aryabhatt Lab,27,GEHU,730.717,8.699,913
+7,Aryabhatt Lab,28,Ravi canteen,137.162,1.633,171
+8,Petroleum Block,9,Chanakya Block,42.752,0.509,53
+8,Petroleum Block,10,K.P Nautiyal Block,64.474,0.768,80
+8,Petroleum Block,11,Priyadrashani Hostel,156.801,1.867,196
+8,Petroleum Block,12,Dispensary,198.537,2.364,248
+8,Petroleum Block,13,CafÃ© & Gym,191.994,2.286,239
+8,Petroleum Block,14,GEU Bus Stop,393.689,4.687,492
+8,Petroleum Block,15,Tuck Shop,185.729,2.211,232
+8,Petroleum Block,16,Graphic Era Hospital,261.312,3.111,326
+8,Petroleum Block,17,Vishwakarma Block,78.389,0.933,97
+8,Petroleum Block,18,Gate No 1,223.16,2.657,278
+8,Petroleum Block,19,Quick Bite,56.493,0.673,70
+8,Petroleum Block,20,Parking,114.133,1.359,142
+8,Petroleum Block,21,Bus Stop Gate 2,136.863,1.629,171
+8,Petroleum Block,22,Gate No 2,189.854,2.26,237
+8,Petroleum Block,23,Lakshmi Bai Hostel,288.861,3.439,361
+8,Petroleum Block,24,Char Khamba,292.194,3.478,365
+8,Petroleum Block,25,Marina Hostel,586.493,6.982,733
+8,Petroleum Block,26,GEHU Ground,676.509,8.054,845
+8,Petroleum Block,27,GEHU,717.86,8.546,897
+8,Petroleum Block,28,Ravi canteen,205.768,2.45,257
+9,Chanakya Block,10,K.P Nautiyal Block,65.097,0.775,81
+9,Chanakya Block,11,Priyadrashani Hostel,166.951,1.988,208
+9,Chanakya Block,12,Dispensary,227.816,2.712,284
+9,Chanakya Block,13,CafÃ© & Gym,234.68,2.794,293
+9,Chanakya Block,14,GEU Bus Stop,393.468,4.684,491
+9,Chanakya Block,15,Tuck Shop,214.754,2.557,268
+9,Chanakya Block,16,Graphic Era Hospital,283.236,3.372,354
+9,Chanakya Block,17,Vishwakarma Block,96.503,1.149,120
+9,Chanakya Block,18,Gate No 1,252.378,3.005,315
+9,Chanakya Block,19,Quick Bite,73.152,0.871,91
+9,Chanakya Block,20,Parking,91.517,1.089,114
+9,Chanakya Block,21,Bus Stop Gate 2,101.343,1.206,126
+9,Chanakya Block,22,Gate No 2,157.691,1.877,197
+9,Chanakya Block,23,Lakshmi Bai Hostel,329.487,3.922,411
+9,Chanakya Block,24,Char Khamba,286.105,3.406,357
+9,Chanakya Block,25,Marina Hostel,559.001,6.655,698
+9,Chanakya Block,26,GEHU Ground,648.22,7.717,810
+9,Chanakya Block,27,GEHU,691.232,8.229,864
+9,Chanakya Block,28,Ravi canteen,248.257,2.955,310
+10,K.P Nautiyal Block,11,Priyadrashani Hostel,101.869,1.213,127
+10,K.P Nautiyal Block,12,Dispensary,172.524,2.054,215
+10,K.P Nautiyal Block,13,CafÃ© & Gym,217.744,2.592,272
+10,K.P Nautiyal Block,14,GEU Bus Stop,331.855,3.951,414
+10,K.P Nautiyal Block,15,Tuck Shop,159.549,1.899,199
+10,K.P Nautiyal Block,16,Graphic Era Hospital,220.849,2.629,276
+10,K.P Nautiyal Block,17,Vishwakarma Block,39.356,0.469,49
+10,K.P Nautiyal Block,18,Gate No 1,196.424,2.338,245
+10,K.P Nautiyal Block,19,Quick Bite,24.783,0.295,30
+10,K.P Nautiyal Block,20,Parking,60.4,0.719,75
+10,K.P Nautiyal Block,21,Bus Stop Gate 2,99.983,1.19,124
+10,K.P Nautiyal Block,22,Gate No 2,141.742,1.687,177
+10,K.P Nautiyal Block,23,Lakshmi Bai Hostel,294.93,3.511,368
+10,K.P Nautiyal Block,24,Char Khamba,228.19,2.717,285
+10,K.P Nautiyal Block,25,Marina Hostel,527.827,6.284,659
+10,K.P Nautiyal Block,26,GEHU Ground,618.33,7.361,772
+10,K.P Nautiyal Block,27,GEHU,658.251,7.836,822
+10,K.P Nautiyal Block,28,Ravi canteen,227.564,2.709,284
+11,Priyadrashani Hostel,12,Dispensary,107.574,1.281,134
+11,Priyadrashani Hostel,13,CafÃ© & Gym,226.379,2.695,282
+11,Priyadrashani Hostel,14,GEU Bus Stop,240.549,2.864,300
+11,Priyadrashani Hostel,15,Tuck Shop,97.994,1.167,122
+11,Priyadrashani Hostel,16,Graphic Era Hospital,127.254,1.515,159
+11,Priyadrashani Hostel,17,Vishwakarma Block,79.077,0.941,98
+11,Priyadrashani Hostel,18,Gate No 1,125.228,1.491,156
+11,Priyadrashani Hostel,19,Quick Bite,100.38,1.195,125
+11,Priyadrashani Hostel,20,Parking,116.575,1.388,145
+11,Priyadrashani Hostel,21,Bus Stop Gate 2,164.611,1.96,205
+11,Priyadrashani Hostel,22,Gate No 2,174.364,2.076,217
+11,Priyadrashani Hostel,23,Lakshmi Bai Hostel,262.284,3.122,327
+11,Priyadrashani Hostel,24,Char Khamba,152.057,1.81,190
+11,Priyadrashani Hostel,25,Marina Hostel,495.193,5.895,618
+11,Priyadrashani Hostel,26,GEHU Ground,585.83,6.974,732
+11,Priyadrashani Hostel,27,GEHU,619.565,7.376,774
+11,Priyadrashani Hostel,28,Ravi canteen,228.396,2.719,285
+12,Dispensary,13,CafÃ© & Gym,157.74,1.878,197
+12,Dispensary,14,GEU Bus Stop,280.656,3.341,350
+12,Dispensary,15,Tuck Shop,13.081,0.156,16
+12,Dispensary,16,Graphic Era Hospital,78.73,0.937,98
+12,Dispensary,17,Vishwakarma Block,133.842,1.593,167
+12,Dispensary,18,Gate No 1,24.656,0.294,30
+12,Dispensary,19,Quick Bite,155.627,1.853,194
+12,Dispensary,20,Parking,212.005,2.524,265
+12,Dispensary,21,Bus Stop Gate 2,260.743,3.104,325
+12,Dispensary,22,Gate No 2,279.744,3.33,349
+12,Dispensary,23,Lakshmi Bai Hostel,158.962,1.892,198
+12,Dispensary,24,Char Khamba,228.394,2.719,285
+12,Dispensary,25,Marina Hostel,587.401,6.993,734
+12,Dispensary,26,GEHU Ground,676.925,8.059,846
+12,Dispensary,27,GEHU,706.507,8.411,883
+12,Dispensary,28,Ravi canteen,152.057,1.81,190
+13,CafÃ© & Gym,14,GEU Bus Stop,437.706,5.211,547
+13,CafÃ© & Gym,15,Tuck Shop,154.951,1.845,193
+13,CafÃ© & Gym,16,Graphic Era Hospital,233.12,2.775,291
+13,CafÃ© & Gym,17,Vishwakarma Block,187.598,2.233,234
+13,CafÃ© & Gym,18,Gate No 1,168.849,2.01,211
+13,CafÃ© & Gym,19,Quick Bite,192.977,2.297,241
+13,CafÃ© & Gym,20,Parking,277.349,3.302,346
+13,CafÃ© & Gym,21,Bus Stop Gate 2,316.513,3.768,395
+13,CafÃ© & Gym,22,Gate No 2,358.517,4.268,448
+13,CafÃ© & Gym,23,Lakshmi Bai Hostel,116.758,1.39,145
+13,CafÃ© & Gym,24,Char Khamba,373.507,4.447,466
+13,CafÃ© & Gym,25,Marina Hostel,721.035,8.584,901
+13,CafÃ© & Gym,26,GEHU Ground,811.81,9.664,1014
+13,CafÃ© & Gym,27,GEHU,845.943,10.071,1057
+13,CafÃ© & Gym,28,Ravi canteen,18.292,0.218,22
+14,GEU Bus Stop,15,Tuck Shop,282.761,3.366,353
+14,GEU Bus Stop,16,Graphic Era Hospital,213.679,2.544,267
+14,GEU Bus Stop,17,Vishwakarma Block,318.593,3.793,398
+14,GEU Bus Stop,18,Gate No 1,274.818,3.272,343
+14,GEU Bus Stop,19,Quick Bite,337.738,4.021,422
+14,GEU Bus Stop,20,Parking,312.064,3.715,390
+14,GEU Bus Stop,21,Bus Stop Gate 2,341.82,4.069,427
+14,GEU Bus Stop,22,Gate No 2,307.601,3.662,384
+14,GEU Bus Stop,23,Lakshmi Bai Hostel,419.161,4.99,523
+14,GEU Bus Stop,24,Char Khamba,114.478,1.363,143
+14,GEU Bus Stop,25,Marina Hostel,369.079,4.394,461
+14,GEU Bus Stop,26,GEHU Ground,448.338,5.337,560
+14,GEU Bus Stop,27,GEHU,464.483,5.53,580
+14,GEU Bus Stop,28,Ravi canteen,432.712,5.151,540
+15,Tuck Shop,16,Graphic Era Hospital,86.92,1.035,108
+15,Tuck Shop,17,Vishwakarma Block,120.802,1.438,151
+15,Tuck Shop,18,Gate No 1,37.649,0.448,47
+15,Tuck Shop,19,Quick Bite,142.547,1.697,178
+15,Tuck Shop,20,Parking,199.825,2.379,249
+15,Tuck Shop,21,Bus Stop Gate 2,248.47,2.958,310
+15,Tuck Shop,22,Gate No 2,268.661,3.198,335
+15,Tuck Shop,23,Lakshmi Bai Hostel,165.627,1.972,207
+15,Tuck Shop,24,Char Khamba,225.305,2.682,281
+15,Tuck Shop,25,Marina Hostel,582.77,6.938,728
+15,Tuck Shop,26,GEHU Ground,672.586,8.007,840
+15,Tuck Shop,27,GEHU,702.994,8.369,878
+15,Tuck Shop,28,Ravi canteen,150.747,1.795,188
+16,Graphic Era Hospital,17,Vishwakarma Block,186.886,2.225,233
+16,Graphic Era Hospital,18,Gate No 1,64.354,0.766,80
+16,Graphic Era Hospital,19,Quick Bite,210.454,2.505,263
+16,Graphic Era Hospital,20,Parking,243.829,2.903,304
+16,Graphic Era Hospital,21,Bus Stop Gate 2,291.699,3.473,364
+16,Graphic Era Hospital,22,Gate No 2,295.56,3.519,369
+16,Graphic Era Hospital,23,Lakshmi Bai Hostel,206.233,2.455,257
+16,Graphic Era Hospital,24,Char Khamba,188.253,2.241,235
+16,Graphic Era Hospital,25,Marina Hostel,547.863,6.522,684
+16,Graphic Era Hospital,26,GEHU Ground,635.09,7.561,793
+16,Graphic Era Hospital,27,GEHU,660.07,7.858,825
+16,Graphic Era Hospital,28,Ravi canteen,225.09,2.68,281
+17,Vishwakarma Block,18,Gate No 1,158.006,1.881,197
+17,Vishwakarma Block,19,Quick Bite,23.603,0.281,29
+17,Vishwakarma Block,20,Parking,91.846,1.093,114
+17,Vishwakarma Block,21,Bus Stop Gate 2,136.504,1.625,170
+17,Vishwakarma Block,22,Gate No 2,171.774,2.045,214
+17,Vishwakarma Block,23,Lakshmi Bai Hostel,257.47,3.065,321
+17,Vishwakarma Block,24,Char Khamba,222.801,2.652,278
+17,Vishwakarma Block,25,Marina Hostel,543.147,6.466,678
+17,Vishwakarma Block,26,GEHU Ground,634.015,7.548,792
+17,Vishwakarma Block,27,GEHU,671.764,7.997,839
+17,Vishwakarma Block,28,Ravi canteen,195.552,2.328,244
+18,Gate No 1,19,Quick Bite,180.028,2.143,225
+18,Gate No 1,20,Parking,233.888,2.784,292
+18,Gate No 1,21,Bus Stop Gate 2,282.76,3.366,353
+18,Gate No 1,22,Gate No 2,299.162,3.561,373
+18,Gate No 1,23,Lakshmi Bai Hostel,152.125,1.811,190
+18,Gate No 1,24,Char Khamba,232.712,2.77,290
+18,Gate No 1,25,Marina Hostel,593.486,7.065,741
+18,Gate No 1,26,GEHU Ground,682.346,8.123,852
+18,Gate No 1,27,GEHU,710.31,8.456,887
+18,Gate No 1,28,Ravi canteen,160.773,1.914,200
+19,Quick Bite,20,Parking,84.767,1.009,105
+19,Quick Bite,21,Bus Stop Gate 2,124.531,1.483,155
+19,Quick Bite,22,Gate No 2,166.167,1.978,207
+19,Quick Bite,23,Lakshmi Bai Hostel,271.46,3.232,339
+19,Quick Bite,24,Char Khamba,238.501,2.839,298
+19,Quick Bite,25,Marina Hostel,548.441,6.529,685
+19,Quick Bite,26,GEHU Ground,639.122,7.609,798
+19,Quick Bite,27,GEHU,678.225,8.074,847
+19,Quick Bite,28,Ravi canteen,202.798,2.414,253
+20,Parking,21,Bus Stop Gate 2,48.906,0.582,61
+20,Parking,22,Gate No 2,81.4,0.969,101
+20,Parking,23,Lakshmi Bai Hostel,348.362,4.147,435
+20,Parking,24,Char Khamba,200.501,2.387,250
+20,Parking,25,Marina Hostel,472.361,5.623,590
+20,Parking,26,GEHU Ground,562.406,6.695,703
+20,Parking,27,GEHU,603.789,7.188,754
+20,Parking,28,Ravi canteen,286.443,3.41,358
+21,Bus Stop Gate 2,22,Gate No 2,57.905,0.689,72
+21,Bus Stop Gate 2,23,Lakshmi Bai Hostel,393.969,4.69,492
+21,Bus Stop Gate 2,24,Char Khamba,227.668,2.71,284
+21,Bus Stop Gate 2,25,Marina Hostel,460.176,5.478,575
+21,Bus Stop Gate 2,26,GEHU Ground,548.672,6.532,685
+21,Bus Stop Gate 2,27,GEHU,592.834,7.058,741
+21,Bus Stop Gate 2,28,Ravi canteen,327.056,3.894,408
+22,Gate No 2,23,Lakshmi Bai Hostel,424.899,5.058,531
+22,Gate No 2,24,Char Khamba,193.744,2.306,242
+22,Gate No 2,25,Marina Hostel,402.336,4.79,502
+22,Gate No 2,26,GEHU Ground,491.006,5.845,613
+22,Gate No 2,27,GEHU,534.957,6.369,668
+22,Gate No 2,28,Ravi canteen,367.202,4.371,459
+23,Lakshmi Bai Hostel,24,Char Khamba,384.81,4.581,481
+23,Lakshmi Bai Hostel,25,Marina Hostel,745.35,8.873,931
+23,Lakshmi Bai Hostel,26,GEHU Ground,834.393,9.933,1042
+23,Lakshmi Bai Hostel,27,GEHU,862.371,10.266,1077
+23,Lakshmi Bai Hostel,28,Ravi canteen,98.466,1.172,123
+24,Char Khamba,25,Marina Hostel,361.098,4.299,451
+24,Char Khamba,26,GEHU Ground,449.655,5.353,562
+24,Char Khamba,27,GEHU,478.148,5.692,597
+24,Char Khamba,28,Ravi canteen,372.826,4.438,466
+25,Marina Hostel,26,GEHU Ground,90.918,1.082,113
+25,Marina Hostel,27,GEHU,132.882,1.582,166
+25,Marina Hostel,28,Ravi canteen,723.588,8.614,904
+26,GEHU Ground,27,GEHU,54.58,0.65,68
+26,GEHU Ground,28,Ravi canteen,814.217,9.693,1017
+27,GEHU,28,Ravi canteen,847.409,10.088,1059
