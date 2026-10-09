@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>CampusNavX | Campus Navigation</title><link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app-shell">
+  <aside class="sidebar">
+    <div class="brand"><div class="brand-mark">C<span>+</span></div><div><strong>CampusNavX</strong><small>SMART CAMPUS NAVIGATION</small></div></div>
+    <div class="side-label">WORKSPACE</div>
+    <button class="nav-item active" data-view="navigate"><span>⌁</span> Navigate</button>
+    <button class="nav-item" data-view="locations"><span>⌖</span> Locations</button>
+    <button class="nav-item" data-view="manage"><span>↔</span> Pathway control</button>
+    <button class="nav-item" data-view="history"><span>◷</span> Route history</button>
+    <div class="sidebar-bottom"><div class="status-dot"></div><div><b>Backend connection</b><small id="connectionText">Checking connection…</small></div></div>
+  </aside>
+  <main class="main-content">
+    <header class="topbar"><div><p class="eyebrow">CAMPUS WAYFINDING SYSTEM</p><h1 id="pageTitle">Find your way.</h1></div><div class="top-actions"><span class="live-pill"><i></i> ACCESSIBLE ROUTING</span><button class="icon-button" id="refreshBtn" title="Refresh data">↻</button></div></header>
+    <section class="view active" id="view-navigate">
+      <div class="hero"><div><span class="hero-kicker">YOUR CAMPUS, CONNECTED</span><h2>Every destination.<br><em>A clearer route.</em></h2><p>Plan accessible journeys across campus with graph algorithms working behind the scenes.</p></div><div class="hero-art"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="map-pin pin-a">⌂</div><div class="map-pin pin-b">◎</div><div class="route-line"></div><div class="map-label label-a">START</div><div class="map-label label-b">DESTINATION</div></div></div>
+      <div class="content-grid">
+        <section class="panel route-panel"><div class="panel-heading"><div><span class="eyebrow">ROUTE PLANNER</span><h3>Where are you going?</h3></div><span class="step-count">01 / PLAN</span></div>
+          <div class="route-inputs"><label>STARTING POINT<select id="source"><option value="">Loading locations…</option></select></label><button id="swapBtn" class="swap-btn" title="Swap locations">⇅</button><label>DESTINATION<select id="destination"><option value="">Choose destination</option></select></label></div>
+          <div class="mode-row"><label class="checkline"><input type="checkbox" id="indoorMode"><span>Indoor locations</span></label><label class="checkline"><input type="checkbox" id="accessibleMode" checked disabled><span>Accessible route required</span></label></div>
+          <label class="field-label" for="algorithm">ROUTE ALGORITHM</label><div class="algorithm-cards">
+            <label class="algo-card"><input type="radio" name="algorithm" value="dijkstra" checked><span class="algo-icon">↗</span><b>Dijkstra</b><small>Shortest distance</small></label>
+            <label class="algo-card"><input type="radio" name="algorithm" value="bfs"><span class="algo-icon">◎</span><b>BFS</b><small>Fewest connections</small></label>
+            <label class="algo-card"><input type="radio" name="algorithm" value="dfs"><span class="algo-icon">⌘</span><b>DFS</b><small>Explore a path</small></label>
+            <label class="algo-card"><input type="radio" name="algorithm" value="compare"><span class="algo-icon">⇄</span><b>Compare</b><small>All three methods</small></label>
+          </div>
+          <button class="primary-btn" id="findRouteBtn">Find accessible route <span>→</span></button>
+          <button class="secondary-btn emergency-btn" id="emergencyBtn">⚑ Find nearest accessible emergency exit</button>
+          <p class="microcopy">Blocked pathways and stairs-only links are excluded.</p>
+        </section>
+        <section class="panel results-panel"><div class="panel-heading"><div><span class="eyebrow">YOUR JOURNEY</span><h3 id="resultHeading">Route details</h3></div><span class="result-icon">⌁</span></div><div id="routeResult" class="empty-result"><div class="empty-illustration">⌖</div><b>Your route will appear here</b><p>Choose a starting point and destination, then find your route.</p></div></section>
+      </div>
+      <section class="panel map-panel"><div class="panel-heading"><div><span class="eyebrow">CAMPUS OVERVIEW</span><h3>Connected locations</h3></div><span class="map-caption">SCHEMATIC VIEW · NOT TO SCALE</span></div><div id="campusMap" class="campus-map"><div class="map-loading">Loading campus locations…</div></div></section>
+    </section>
+    <section class="view" id="view-locations"><section class="panel"><div class="panel-heading"><div><span class="eyebrow">CAMPUS DIRECTORY</span><h3>Explore locations</h3></div><span class="count-chip" id="locationCount">0 locations</span></div><input class="search-input" id="locationSearch" placeholder="Search buildings, facilities, rooms…"><div id="locationList" class="location-list"></div></section></section>
+    <section class="view" id="view-manage"><section class="panel manage-panel"><div class="panel-heading"><div><span class="eyebrow">LIVE NETWORK CONTROL</span><h3>Pathway control</h3></div><span class="warning-chip">Use with care</span></div><p class="section-intro">Temporarily block a pathway during maintenance or reopen it when clear. Changes are saved to the project CSV data file.</p><label class="field-label">NETWORK TYPE</label><div class="segmented"><label><input type="radio" name="scope" value="outdoor" checked> Outdoor</label><label><input type="radio" name="scope" value="indoor"> Indoor</label></div><div class="manage-fields"><label>LOCATION A<select id="pathA"></select></label><label>LOCATION B<select id="pathB"></select></label></div><div class="manage-actions"><button class="danger-btn" id="blockBtn">Block pathway</button><button class="secondary-btn" id="unblockBtn">Unblock pathway</button></div><div id="manageMessage" class="notice hidden"></div></section></section>
+    <section class="view" id="view-history"><section class="panel"><div class="panel-heading"><div><span class="eyebrow">RECENT JOURNEYS</span><h3>Route history</h3></div><button class="secondary-btn small-btn" id="historyRefresh">Refresh</button></div><div id="historyList" class="history-list"><p class="muted">Loading route history…</p></div></section></section>
+    <footer>CampusNavX <span>•</span> Graph-based navigation <span class="footer-right">Accessible by design</span></footer>
+  </main>
+</div><div id="toast" class="toast" role="status"></div><script src="app.js"></script>
+</body></html>
