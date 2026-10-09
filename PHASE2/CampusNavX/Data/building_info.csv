@@ -1,0 +1,10 @@
+building_id,building_name,total_floors,elevator,basement,notes
+2,Academic Block,5,1,0,Prototype indoor data; verify against campus plan
+3,CSIT Block,5,1,1,Prototype indoor data; basement and rooms require verification
+4,B.Tech Block,5,1,0,Prototype indoor data; verify against campus plan
+5,Civil Block,4,0,0,Prototype indoor data; elevator not assumed
+6,Library,3,1,0,Prototype indoor data; verify against campus plan
+8,Administrative Block,4,1,0,Prototype indoor data; verify against campus plan
+22,Mechanical Block,4,1,0,Prototype indoor data; verify against campus plan
+23,Electrical Block,5,1,0,Prototype indoor data; verify against campus plan
+24,Management Block,4,1,0,Prototype indoor data; verify against campus plan

@@ -1,0 +1,29 @@
+id,name,type,floor
+1,Main Gate,Entrance,0
+2,Academic Block,Building,0
+3,CSIT Block,Building,0
+4,B.Tech Block,Building,0
+5,Civil Block,Building,0
+6,Library,Building,0
+7,TBI,Office,4
+8,Administrative Block,Building,0
+9,Auditorium,Facility,0
+10,Cafeteria,Facility,0
+11,Hostel Block A,Hostel,0
+12,Hostel Block B,Hostel,0
+13,Hostel Block C,Hostel,0
+14,Sports Complex,Facility,0
+15,Main Parking,Parking,0
+16,Academic Parking,Parking,0
+17,Temple,Facility,0
+18,Medical Centre,Facility,0
+19,Reception,Office,0
+20,Security Office,Office,0
+21,Workshop,Facility,0
+22,Mechanical Block,Building,0
+23,Electrical Block,Building,0
+24,Management Block,Building,0
+25,Food Court,Facility,0
+26,Open Air Theatre,Facility,0
+27,Girls Hostel,Hostel,0
+28,Emergency Exit,Emergency Exit,0

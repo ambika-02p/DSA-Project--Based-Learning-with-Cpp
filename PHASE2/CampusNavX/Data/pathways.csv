@@ -1,0 +1,40 @@
+source_id,source,destination_id,destination,distance_m,walking_time_min,steps,stairs,elevator,ramp,blocked
+1,Main Gate,2,Academic Block,180,2.3,240,0,0,1,0
+1,Main Gate,15,Main Parking,75,1.0,100,0,0,0,0
+1,Main Gate,20,Security Office,55,0.8,70,0,0,0,0
+1,Main Gate,28,Emergency Exit,95,1.3,125,0,0,1,0
+2,Academic Block,3,CSIT Block,110,1.5,145,0,0,1,0
+2,Academic Block,6,Library,130,1.8,170,0,0,1,0
+2,Academic Block,8,Administrative Block,95,1.3,125,0,0,1,0
+2,Academic Block,16,Academic Parking,65,0.9,85,0,0,0,0
+2,Academic Block,19,Reception,45,0.6,60,0,0,0,0
+3,CSIT Block,4,B.Tech Block,120,1.7,155,0,0,1,0
+3,CSIT Block,7,TBI,35,0.5,45,0,0,1,0
+4,B.Tech Block,5,Civil Block,140,1.9,180,0,0,1,0
+4,B.Tech Block,22,Mechanical Block,100,1.4,130,0,0,1,0
+4,B.Tech Block,21,Workshop,115,1.6,150,0,0,1,0
+5,Civil Block,23,Electrical Block,105,1.5,140,0,0,1,0
+6,Library,9,Auditorium,90,1.2,115,0,0,1,0
+6,Library,17,Temple,100,1.4,130,0,0,1,0
+8,Administrative Block,19,Reception,35,0.5,45,0,0,0,0
+8,Administrative Block,24,Management Block,100,1.4,130,0,0,1,0
+8,Administrative Block,18,Medical Centre,80,1.1,105,0,0,1,0
+9,Auditorium,26,Open Air Theatre,70,1.0,90,0,0,1,0
+9,Auditorium,14,Sports Complex,160,2.2,205,0,0,1,0
+10,Cafeteria,25,Food Court,45,0.6,60,0,0,0,0
+10,Cafeteria,6,Library,85,1.2,110,0,0,1,0
+11,Hostel Block A,12,Hostel Block B,65,0.9,85,0,0,1,0
+11,Hostel Block A,27,Girls Hostel,80,1.1,105,0,0,1,0
+11,Hostel Block A,15,Main Parking,100,1.4,130,0,0,1,0
+12,Hostel Block B,13,Hostel Block C,70,1.0,90,0,0,1,0
+13,Hostel Block C,14,Sports Complex,115,1.6,150,0,0,1,0
+14,Sports Complex,28,Emergency Exit,135,1.9,175,0,0,1,0
+17,Temple,26,Open Air Theatre,90,1.3,115,0,0,1,0
+18,Medical Centre,20,Security Office,60,0.8,80,0,0,0,0
+20,Security Office,19,Reception,40,0.6,50,0,0,0,0
+21,Workshop,22,Mechanical Block,75,1.0,100,0,0,1,0
+22,Mechanical Block,24,Management Block,130,1.8,170,0,0,1,0
+23,Electrical Block,24,Management Block,90,1.3,115,0,0,1,0
+24,Management Block,25,Food Court,110,1.5,145,0,0,1,0
+25,Food Court,26,Open Air Theatre,95,1.3,125,0,0,1,0
+16,Academic Parking,15,Main Parking,120,1.7,155,0,0,0,0

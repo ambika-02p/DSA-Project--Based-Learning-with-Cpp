@@ -1,0 +1,87 @@
+id,building_id,building_name,floor,room_name,type
+1,3,CSIT Block,-1,Computer Lab 1,Lab
+2,3,CSIT Block,-1,Computer Lab 2,Lab
+3,3,CSIT Block,-1,Computer Lab 3,Lab
+4,3,CSIT Block,-1,Computer Lab 4,Lab
+5,3,CSIT Block,-1,Computer Lab 5,Lab
+6,3,CSIT Block,0,Lecture Theatre 1,Lecture Theatre
+7,3,CSIT Block,0,Lecture Theatre 2,Lecture Theatre
+8,3,CSIT Block,0,Classroom 101,Classroom
+9,3,CSIT Block,0,Classroom 102,Classroom
+10,3,CSIT Block,0,Classroom 103,Classroom
+11,3,CSIT Block,0,Classroom 104,Classroom
+12,3,CSIT Block,0,Elevator,Elevator
+13,3,CSIT Block,1,Lecture Theatre 1,Lecture Theatre
+14,3,CSIT Block,1,Lecture Theatre 2,Lecture Theatre
+15,3,CSIT Block,1,Classroom 201,Classroom
+16,3,CSIT Block,1,Classroom 202,Classroom
+17,3,CSIT Block,1,Classroom 203,Classroom
+18,3,CSIT Block,1,Classroom 204,Classroom
+19,3,CSIT Block,1,Elevator,Elevator
+20,3,CSIT Block,2,Lecture Theatre 1,Lecture Theatre
+21,3,CSIT Block,2,Lecture Theatre 2,Lecture Theatre
+22,3,CSIT Block,2,Classroom 301,Classroom
+23,3,CSIT Block,2,Classroom 302,Classroom
+24,3,CSIT Block,2,Classroom 303,Classroom
+25,3,CSIT Block,2,Classroom 304,Classroom
+26,3,CSIT Block,2,Computer Lab 6,Lab
+27,3,CSIT Block,2,Computer Lab 7,Lab
+28,3,CSIT Block,2,Elevator,Elevator
+29,3,CSIT Block,3,Lecture Theatre 1,Lecture Theatre
+30,3,CSIT Block,3,Lecture Theatre 2,Lecture Theatre
+31,3,CSIT Block,3,Classroom 401,Classroom
+32,3,CSIT Block,3,Classroom 402,Classroom
+33,3,CSIT Block,3,Classroom 403,Classroom
+34,3,CSIT Block,3,Classroom 404,Classroom
+35,3,CSIT Block,3,Elevator,Elevator
+36,3,CSIT Block,4,Lecture Theatre 1,Lecture Theatre
+37,3,CSIT Block,4,Lecture Theatre 2,Lecture Theatre
+38,3,CSIT Block,4,Classroom 501,Classroom
+39,3,CSIT Block,4,Classroom 502,Classroom
+40,3,CSIT Block,4,Classroom 503,Classroom
+41,3,CSIT Block,4,Classroom 504,Classroom
+42,3,CSIT Block,4,TBI Office,Office
+43,3,CSIT Block,4,Elevator,Elevator
+44,4,B.Tech Block,0,Lecture Theatre,Lecture Theatre
+45,4,B.Tech Block,0,Classroom 101,Classroom
+46,4,B.Tech Block,0,Classroom 102,Classroom
+47,4,B.Tech Block,0,Classroom 103,Classroom
+48,4,B.Tech Block,0,Elevator,Elevator
+49,4,B.Tech Block,1,Lecture Theatre,Lecture Theatre
+50,4,B.Tech Block,1,Classroom 201,Classroom
+51,4,B.Tech Block,1,Classroom 202,Classroom
+52,4,B.Tech Block,1,Classroom 203,Classroom
+53,4,B.Tech Block,1,Elevator,Elevator
+54,4,B.Tech Block,2,Lecture Theatre,Lecture Theatre
+55,4,B.Tech Block,2,Classroom 301,Classroom
+56,4,B.Tech Block,2,Classroom 302,Classroom
+57,4,B.Tech Block,2,Classroom 303,Classroom
+58,4,B.Tech Block,2,Electronic Lab 1,Lab
+59,4,B.Tech Block,2,Electronic Lab 2,Lab
+60,4,B.Tech Block,2,Elevator,Elevator
+61,4,B.Tech Block,3,Lecture Theatre,Lecture Theatre
+62,4,B.Tech Block,3,Classroom 401,Classroom
+63,4,B.Tech Block,3,Classroom 402,Classroom
+64,4,B.Tech Block,3,Classroom 403,Classroom
+65,4,B.Tech Block,3,Elevator,Elevator
+66,4,B.Tech Block,4,Lecture Theatre,Lecture Theatre
+67,4,B.Tech Block,4,Classroom 501,Classroom
+68,4,B.Tech Block,4,Classroom 502,Classroom
+69,4,B.Tech Block,4,Classroom 503,Classroom
+70,4,B.Tech Block,4,Elevator,Elevator
+71,4,B.Tech Block,4,Elevator,Elevator
+72,5,Civil Block,0,Classroom 001,Classroom
+73,5,Civil Block,0,Classroom 002,Classroom
+74,5,Civil Block,1,Classroom 101,Classroom
+75,5,Civil Block,1,Classroom 102,Classroom
+76,5,Civil Block,2,Classroom 201,Classroom
+77,5,Civil Block,2,Classroom 202,Classroom
+78,5,Civil Block,3,Classroom 301,Classroom
+79,5,Civil Block,3,Classroom 302,Classroom
+80,6,Library,0,Reading Hall,Facility
+81,6,Library,0,Service Counter,Office
+82,6,Library,1,Reading Hall,Facility
+83,6,Library,1,Discussion Room,Facility
+84,6,Library,2,Digital Lab 1,Lab
+85,6,Library,2,Digital Lab 2,Lab
+86,6,Library,2,Elevator,Elevator
