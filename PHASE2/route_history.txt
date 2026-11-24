@@ -1,0 +1,4 @@
+Main Gate -> Computer Lab
+Main Gate -> Computer Lab -> Library
+Main Gate -> Computer Lab -> Library
+Main Gate -> CSIT Block
