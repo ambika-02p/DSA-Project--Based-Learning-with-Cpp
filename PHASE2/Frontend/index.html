@@ -1,0 +1,496 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CampusNavX | Smart Campus Navigation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="app">
+
+    <!-- SIDEBAR -->
+
+    <aside class="sidebar">
+
+        <div class="brand">
+            <div class="brand-logo">C</div>
+            <div>
+                <h2>CampusNavX</h2>
+                <small>SMART CAMPUS NAVIGATION</small>
+            </div>
+        </div>
+
+        <p class="menu-label">MAIN MENU</p>
+
+        <button class="nav-link active" data-page="navigate">
+            <span>⌖</span> Navigate
+        </button>
+
+        <button class="nav-link" data-page="locations">
+            <span>▦</span> Locations
+        </button>
+
+        <button class="nav-link" data-page="pathways">
+            <span>↔</span> Pathway Control
+        </button>
+
+        <button class="nav-link" data-page="history">
+            <span>◷</span> Route History
+        </button>
+
+        <div class="sidebar-status">
+            <span id="statusDot"></span>
+            <div>
+                <strong id="statusTitle">Connecting...</strong>
+                <small id="statusText">Checking C++ backend</small>
+            </div>
+        </div>
+
+    </aside>
+
+
+    <!-- MAIN CONTENT -->
+
+    <main class="main">
+
+        <header class="topbar">
+            <div>
+                <p class="top-label">SMART CAMPUS MANAGEMENT SYSTEM</p>
+                <h1 id="pageTitle">Campus Navigation</h1>
+            </div>
+
+            <div class="top-right">
+                <span class="system-badge">● SYSTEM DASHBOARD</span>
+                <div class="profile">CN</div>
+            </div>
+        </header>
+
+
+        <!-- NAVIGATION PAGE -->
+
+        <section id="navigate" class="page active">
+
+            <div class="welcome-banner">
+
+                <div>
+                    <span class="orange-label">WELCOME TO CAMPUSNAVX</span>
+
+                    <h2>
+                        Explore your campus.<br>
+                        <span>Find your way.</span>
+                    </h2>
+
+                    <p>
+                        Smart indoor and outdoor navigation
+                        powered by graph algorithms.
+                    </p>
+                </div>
+
+                <div class="banner-icon">
+                    <div class="circle circle-one"></div>
+                    <div class="circle circle-two"></div>
+                    <div class="banner-pin">⌖</div>
+                </div>
+
+            </div>
+
+
+            <div class="navigation-layout">
+
+                <!-- ROUTE PLANNER -->
+
+                <div class="panel planner">
+
+                    <div class="panel-title">
+                        <div>
+                            <span class="small-label">PLAN YOUR JOURNEY</span>
+                            <h2>Find a route</h2>
+                        </div>
+
+                        <span class="number">01</span>
+                    </div>
+
+
+                    <div class="field">
+                        <label>ROUTE CATEGORY</label>
+
+                        <select id="routeType">
+                            <option value="outdoor">
+                                Outdoor Navigation
+                            </option>
+
+                            <option value="indoor">
+                                Indoor / Cross-building Navigation
+                            </option>
+                        </select>
+                    </div>
+
+
+                    <div class="field">
+                        <label>START LOCATION</label>
+
+                        <select id="startLocation">
+                            <option value="">
+                                Select starting location
+                            </option>
+                        </select>
+                    </div>
+
+
+                    <div class="field">
+                        <label>DESTINATION</label>
+
+                        <select id="endLocation">
+                            <option value="">
+                                Select destination
+                            </option>
+                        </select>
+                    </div>
+
+
+                    <label class="check-row">
+
+                        <input type="checkbox" id="accessible" checked>
+
+                        <span>
+                            <strong>Accessible route</strong>
+                            <small>Avoid blocked pathways and stairs</small>
+                        </span>
+
+                    </label>
+
+
+                    <div class="algorithm-note">
+                        <strong>Intelligent route selection</strong>
+
+                        <p>
+                            BFS and DFS explore possible paths.
+                            Dijkstra selects the shortest available route.
+                        </p>
+                    </div>
+
+
+                    <button class="primary-button" id="findRoute">
+                        Find Best Route <span>→</span>
+                    </button>
+
+                </div>
+
+
+                <!-- CONNECTED CAMPUS MAP -->
+
+                <div class="panel map-panel">
+
+                    <div class="panel-title">
+
+                        <div>
+                            <span class="small-label">CAMPUS MAP</span>
+                            <h2>Connected campus pathways</h2>
+                        </div>
+
+                        <span class="map-live">● LIVE MAP</span>
+
+                    </div>
+
+
+                    <!-- MAP FILTERS -->
+
+                    <div class="map-toolbar">
+
+                        <button
+                            class="map-filter active"
+                            id="outdoorMapButton"
+                            type="button">
+                            Outdoor Map
+                        </button>
+
+                        <button
+                            class="map-filter"
+                            id="indoorMapButton"
+                            type="button">
+                            Indoor Map
+                        </button>
+
+                        <button
+                            class="map-reset"
+                            id="resetMap"
+                            type="button">
+                            Reset Map
+                        </button>
+
+                    </div>
+
+
+                    <!-- DYNAMIC MAP AREA -->
+
+                    <div class="map" id="campusMap">
+
+                        <div class="map-background"></div>
+
+                        <svg
+                            id="mapSvg"
+                            class="roads"
+                            viewBox="0 0 1000 600"
+                            preserveAspectRatio="xMidYMid meet">
+
+                            <g id="mapEdges"></g>
+
+                            <g id="routeEdges"></g>
+
+                            <g id="mapNodes"></g>
+
+                        </svg>
+
+
+                        <div class="map-message" id="mapMessage">
+                            Loading connected campus map...
+                        </div>
+
+                    </div>
+
+
+                    <!-- MAP LEGEND -->
+
+                    <div class="map-legend">
+
+                        <span>
+                            <i class="blue-dot"></i>
+                            Buildings
+                        </span>
+
+                        <span>
+                            <i class="orange-dot"></i>
+                            Facilities
+                        </span>
+
+                        <span>
+                            <i class="road-dot"></i>
+                            Pathways
+                        </span>
+
+                        <span>
+                            <i class="route-dot"></i>
+                            Selected route
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- ROUTE DETAILS -->
+
+            <div class="panel result-panel">
+
+                <div class="panel-title">
+
+                    <div>
+                        <span class="small-label">NAVIGATION OUTPUT</span>
+                        <h2>Route Details</h2>
+                    </div>
+
+                    <span class="result-status" id="routeStatus">
+                        READY
+                    </span>
+
+                </div>
+
+                <pre id="routeOutput">Choose your starting location and destination to find a route.</pre>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- LOCATIONS PAGE -->
+
+        <section id="locations" class="page">
+
+            <div class="page-heading">
+
+                <span class="small-label">CAMPUS DIRECTORY</span>
+
+                <h2>Explore Locations</h2>
+
+                <p>
+                    View locations loaded directly from your CSV files.
+                </p>
+
+            </div>
+
+
+            <div class="panel">
+
+                <div class="field">
+
+                    <label>LOCATION CATEGORY</label>
+
+                    <select id="locationType">
+
+                        <option value="outdoor">
+                            Outdoor Locations
+                        </option>
+
+                        <option value="indoor">
+                            Indoor Locations
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <button class="primary-button" id="showLocations">
+                    Load Locations →
+                </button>
+
+
+                <pre id="locationOutput">Select a category and click Load Locations.</pre>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- PATHWAY CONTROL PAGE -->
+
+        <section id="pathways" class="page">
+
+            <div class="page-heading">
+
+                <span class="small-label">CAMPUS MANAGEMENT</span>
+
+                <h2>Pathway Control</h2>
+
+                <p>
+                    Block or restore a connection between two locations.
+                </p>
+
+            </div>
+
+
+            <div class="panel control-panel">
+
+                <div class="field">
+
+                    <label>PATHWAY CATEGORY</label>
+
+                    <select id="pathwayType">
+
+                        <option value="outdoor">
+                            Outdoor Pathway
+                        </option>
+
+                        <option value="indoor">
+                            Indoor Pathway
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <div class="field">
+
+                    <label>FIRST LOCATION</label>
+
+                    <select id="pathwayFirst">
+                        <option value="">Select first location</option>
+                    </select>
+
+                </div>
+
+
+                <div class="field">
+
+                    <label>SECOND LOCATION</label>
+
+                    <select id="pathwaySecond">
+                        <option value="">Select second location</option>
+                    </select>
+
+                </div>
+
+
+                <div class="button-group">
+
+                    <button class="danger-button" id="blockPath">
+                        Block Pathway
+                    </button>
+
+                    <button class="success-button" id="unblockPath">
+                        Unblock Pathway
+                    </button>
+
+                </div>
+
+
+                <pre id="pathwayOutput">Pathway update details will appear here.</pre>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ROUTE HISTORY PAGE -->
+
+        <section id="history" class="page">
+
+            <div class="page-heading">
+
+                <span class="small-label">NAVIGATION RECORDS</span>
+
+                <h2>Route History</h2>
+
+                <p>
+                    View previously searched routes.
+                </p>
+
+            </div>
+
+
+            <div class="panel">
+
+                <button class="primary-button" id="showHistory">
+                    Refresh History →
+                </button>
+
+
+                <pre id="historyOutput">Click refresh to load your route history.</pre>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- FOOTER -->
+
+        <footer>
+
+            <strong>CampusNavX</strong>
+
+            <span>
+                Smart Indoor and Outdoor Campus Navigation
+            </span>
+
+        </footer>
+
+    </main>
+
+</div>
+
+
+<script src="app.js"></script>
+
+</body>
+</html>
