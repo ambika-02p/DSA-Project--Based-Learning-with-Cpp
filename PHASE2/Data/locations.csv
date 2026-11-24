@@ -1,0 +1,11 @@
+id,name,type
+1,Main Gate,Entrance
+2,CSIT Block,Building
+3,Santosh Library,Library
+4,BTech Block,Building
+5,Civil Block,Building
+6,Cafeteria,Facility
+7,Auditorium,Facility
+8,Parking Area,Facility
+9,Admin Block,Building
+10,Campus Garden,Landmark

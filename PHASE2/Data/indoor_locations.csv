@@ -1,0 +1,19 @@
+id,name,building,floor,type
+1,CSIT Entrance,CSIT Block,0,Entrance
+2,CSIT Ground Corridor,CSIT Block,0,Corridor
+3,CSIT Classroom 101,CSIT Block,1,Classroom
+4,CSIT Classroom 102,CSIT Block,1,Classroom
+5,CSIT Elevator,CSIT Block,0,Elevator
+6,CSIT Second Floor Corridor,CSIT Block,2,Corridor
+7,CSIT Lab 201,CSIT Block,2,Lab
+8,CSIT Lab 202,CSIT Block,2,Lab
+9,CSIT TBI Office,CSIT Block,4,Office
+10,BTech Entrance,BTech Block,0,Entrance
+11,BTech Ground Corridor,BTech Block,0,Corridor
+12,BTech Classroom 101,BTech Block,1,Classroom
+13,BTech Elevator,BTech Block,0,Elevator
+14,BTech Electronics Lab 201,BTech Block,2,Lab
+15,Library Entrance,Santosh Library,0,Entrance
+16,Library Digital Lab,Santosh Library,3,Lab
+17,Civil Entrance,Civil Block,0,Entrance
+18,Civil Classroom 201,Civil Block,2,Classroom
